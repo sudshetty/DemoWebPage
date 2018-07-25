@@ -2,7 +2,7 @@
 	<head>
 		<title>Test Page</title>
 	</head>
-	<body style="background-color:green;">
+	<body style="background-color:yellow;">
 		<p>Hello SDET- Auto deply</p>
 		<input type="text" id="myText" value="">
 						<button onclick="myFunction()">Click Here</button>
@@ -14,8 +14,8 @@
 						   document.getElementById("demo").innerHTML = x;
 						}
 						function mySecondClick() {
-							var x = document.getElementById("myText").value;
-						   document.getElementById("demo").innerHTML = x;
+							var y = document.getElementById("myText").value;
+						   document.getElementById("hello").innerHTML = y;
 						}
 						</script>
 	</body>
