@@ -11,11 +11,12 @@
 						<script>
 						function myFunction() {
 						    var x = document.getElementById("myText").value;
-						   document.getElementById("demo").innerHTML = x;
+						   //document.getElementById("demo").innerHTML = x;
+							document.getElementById("text").value="";
 						}
 						function mySecondClick() {
-							var y = document.getElementById("myText").value;
-						   document.getElementById("hello").innerHTML = y;
+							//var y = document.getElementById("myText").value;
+						   document.getElementById("hello").innerHTML = x;
 						}
 						</script>
 	</body>
