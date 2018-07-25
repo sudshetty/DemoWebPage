@@ -7,7 +7,7 @@
 		<input type="text" id="myText" value="">
 						<button onclick="myFunction()">Click Here</button>
 						<button onclick="mySecondClick()">Second Click</button>
-						<p id="demo"></p>
+						<p id="hello"></p>
 						<script>
 						function myFunction() {
 						    var x = document.getElementById("myText").value;
